@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* commen class 11111111111111111111111111000000000000002222222222222222222222222 */
+
+
+.btn-1 {
+    padding: 10px 20px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #c06969;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-2 {
+    padding: 10px 20px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #dbdbdb;
+    color: rgb(45, 46, 48);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.first-h2 {
+    font-size: 30px;
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+
+
+
+
+/* clos */
+
+.contener {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    background-color: rgb(253, 245, 237);
+}
+
+.img-1 {
+    margin: 20px;
+    padding-left: 10px;
+    width: 90px;
+    height: 550px;
+}
+
+
+.navegation-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 10px;
+
+}
+
+
+
+.first-span {
+    color: #c06969;
+}
+
+.all-navber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    font-weight: bold;
+    padding-right: 70px;
+}
+
+.all-navber li a {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.start-section {
+    width: 50%;
+}
+
+/* heading-h3-1">Hi, I am</h3>
+                    <h1 class="heading-h1-1">MD Habibullah</h1>
+                    <p class="first-paragrap" */
+
+.start-section .heading-h3-1 {
+    font-size: 30px;
+    color: rgb(65, 65, 65);
+    font-weight: bold;
+}
+
+.start-section .heading-h1-1 {
+    font-size: 55px;
+    padding: 25px 0;
+}
+
+.start-section .first-paragrap {
+    padding-bottom: 20px;
+}
+
+.img-box {
+    width: 50%;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.img-2 {
+    width: 450px;
+    height: auto;
+}
+
+
+
+
+
+
+/* 2222222222222222222222222222 */
+/* 2 */
+
+
+
+
+
+.second-section {
+    background-color: beige;
+    text-align: center;
+    margin: 30px 80px 20px 80px;
+    border: 1px solid aqua;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+
+.first-paragrap-2 {
+    padding: 20px 150px 20px 150px;
+    color: rgb(76, 75, 75);
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.info p {
+    color: rgb(145, 146, 146);
+}
+
+
+/* 33333333333333333333333 */
+
+.mitelavel-section {
+    background-color: none;
+    border-radius: 20px;
+    text-align: center;
+    margin: 30px 80px 20px 80px;
+    border: none;
+    padding: 50px;
+}
+
+.main-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.sub-card {
+    border: 1px solid rgb(72, 71, 71);
+    padding: 30px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 20px;
+    text-align: left;
+}
+
+.sub-card i {
+    font-size: 35px;
+    padding: 13px 0;
+    color: black;
+}
+
+.sub-card h4 {
+    padding: 10px 0;
+}
+
+.sub-card p {
+    font-size: 10px;
+    color: rgb(52, 51, 51);
+}
+
+
+
+
+
+/* four section  44444444444444444444444444444444444444444444444444444444 */
+
+
+
+.section-last-second {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.lang-1 {
+    padding: 30px;
+}
+
+.titten-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 125px;
+    font-size: 20px;
+    color: rgb(63, 62, 62);
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.main-class-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    row-gap: 40px;
+}
+
+
+.sub-class-2 {
+    text-align: left;
+    width: 450px;
+    background: #4a4a4a;
+}
+
+.sub-class-2 h4 {
+    color: rgb(58, 54, 54);
+    font-size: 19px;
+    padding-bottom: 15px;
+}
+
+.sub-class-2 h5 {
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: rgb(168, 166, 166);
+}
+
+
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header{
+    background:#FFF8F3;
+    display:flex;
+}
+
+.developer{
+    width:90px;
+    margin:30px;
+}
+
+
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* Navbar */
+
+/* nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:40px 0;
+}
+
+nav h2{
+    font-size:40px;
+}
+
+nav span{
+    color:#FD6E0A;
+}
+
+nav ul{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:#474747;
+    font-weight:600;
+}
+
+.btn{
+    padding:15px 30px;
+    border:none;
+    border-radius:5px;
+    background:#FD6E0A;
+    color:white;
+    font-size:18px;
+    font-weight:700;
+    cursor:pointer;
+}
+
+/* Banner 
+
+.banner{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.banner-content{
+    width:50%;
+}
+
+.banner-content h3{
+    font-size:45px;
+    color:#474747;
+}
+
+.banner-content h1{
+    font-size:70px;
+    margin:10px 0;
+}
+
+.banner-content p{
+    margin:20px 0;
+    line-height:28px;
+    color:#757575;
+}
+
+.banner-image{
+    width:50%;
+    background:url(images/header_bg.png) no-repeat bottom;
+    background-size:contain;
+    text-align:right;
+}
+
+.banner-image img{
+    width:480px;
+} */
