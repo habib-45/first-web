@@ -36,31 +36,27 @@
 }
 
 
-
-
-
-/* clos */
+/* start */
 
 .contener {
-    max-width: 1200px;
-    margin: auto;
     display: flex;
-    background-color: rgb(253, 245, 237);
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #FFF8F3;
+    padding: 10px 30px;
 }
 
 .img-1 {
-    margin: 20px;
-    padding-left: 10px;
-    width: 90px;
-    height: 550px;
+    width: 100px;
+    height: fit-content;
+    margin-right: 50px;
 }
 
 
 .navegation-head {
     display: flex;
     justify-content: space-between;
-    padding: 12px 10px;
-
+    align-items: center;
 }
 
 
@@ -91,30 +87,29 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5px;
+    min-height: 700px;
 }
 
 .start-section {
     width: 50%;
 }
-
-/* heading-h3-1">Hi, I am</h3>
-                    <h1 class="heading-h1-1">MD Habibullah</h1>
-                    <p class="first-paragrap" */
-
+/*   00000 */
 .start-section .heading-h3-1 {
-    font-size: 30px;
-    color: rgb(65, 65, 65);
-    font-weight: bold;
+    font-size: 35px;
+    color: #474747;
 }
 
 .start-section .heading-h1-1 {
     font-size: 55px;
-    padding: 25px 0;
+    margin: 20px 0;
+    font-weight: 700px;
 }
 
 .start-section .first-paragrap {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #757575;
 }
 
 .img-box {
@@ -130,8 +125,7 @@
 }
 
 .img-2 {
-    width: 450px;
-    height: auto;
+    width: 580px;
 }
 
 
@@ -237,19 +231,28 @@
     color: rgb(63, 62, 62);
     font-weight: bold;
     padding-bottom: 25px;
+    padding-right: 310px;
 }
 
 .main-class-2 {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
     row-gap: 40px;
+    padding: 0 120px;
+    column-gap: 50px;
 }
 
+.sub-class-2 h4,
+.sub-class-2 h5,
+.sub-class-2 p {
+    margin: 0;
+}
 
 .sub-class-2 {
     text-align: left;
-    width: 450px;
-    background: #4a4a4a;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 25px;
 }
 
 .sub-class-2 h4 {
@@ -263,6 +266,132 @@
     padding-bottom: 20px;
     color: rgb(168, 166, 166);
 }
+
+.btn-butten {
+    margin-top: 30px;
+}
+
+
+
+
+/* last section555555555555555555555555555555555555555555 */
+
+
+.bgn {
+    background: #dcdcdc;
+}
+
+.last-img {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.last-img-3-8 {
+    padding: 5px 120px 40px 120px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    gap: 20px;
+    grid-auto-rows: 250px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.last-img-3-8{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+
+    grid-template-areas:
+        "one two three"
+        "one four five"
+        "six four five";
+}
+
+.gallery-img-1{ grid-area: one; }
+.gallery-img-2{ grid-area: two; }
+.gallery-img-3{ grid-area: three; }
+.gallery-img-4{ grid-area: four; }
+.gallery-img-5{ grid-area: five; }
+.gallery-img-6{ grid-area: six; }
+
+.last-img-3-8 img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+
+/* foother section66666666666666666666666666666666666666666666666 */
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    height: 300px;
+    padding: 10px 120px;
+}
+
+.left-section {
+    width: 50%;
+    font-weight: bold;
+}
+
+.left-section p {
+    font-size: 15px;
+    color: #757575;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.left-section ul i {
+    font-size: 30px;
+    color: rgb(63, 64, 62);
+    gap: 20px;
+}
+
+
+.right-section {
+    text-align: left;
+}
+
+.foter-end {
+    
+}
+
+.footer-end input {
+    padding: 10px;
+    text-decoration: none;
+    margin: 5px;
+    border:1px solid rgb(227, 12, 30) ;
+    /* border-bottom: 1px solid royalblue; */
+}
+
+/* 
+.gallery-img-1 {
+    grid-area: one;
+}
+
+.gallery-img-2 {
+    grid-area: two;
+}
+
+.gallery-img-3 {
+    grid-area: three;
+}
+
+.gallery-img-4 {
+    grid-area: four;
+}
+.gallery-img-5 {
+    grid-area: five;
+}
+
+.gallery-img-6 {
+    grid-area: six;
+} */
 
 
 /* *{
@@ -366,4 +495,4 @@ nav a{
 
 .banner-image img{
     width:480px;
-} */
+}
